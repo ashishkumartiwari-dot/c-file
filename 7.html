@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete Webpage</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial;
+            background-image: url("https://picsum.photos/1200/800");
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        article {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        aside {
+            background-color: #ecf0f1;
+            margin: 20px;
+            padding: 15px;
+            border: 2px dashed gray;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+            padding: 15px;
+            border: 2px solid black;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Student Information Portal</h1>
+</header>
+
+<article>
+    <h2>HTML Links and Image</h2>
+    <a href="https://www.google.com">Visit Google</a><br><br>
+    <img src="https://picsum.photos/300" width="300">
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+    </ol>
+
+    <h2>Student Marksheet</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>ERP ID</th>
+            <th>Marks</th>
+            <th>Grace</th>
+            <th>Total Marks</th>
+        </tr>
+        <tr>
+            <td>Ashish kumar tiwari</td>
+            <td>10309</td>
+            <td>450</td>
+            <td>20</td>
+            <td>470</td>
+        </tr>
+        <tr>
+            <td>Ayush raj tiwari</td>
+            <td>10354</td>
+            <td>430</td>
+            <td>15</td>
+            <td>445</td>
+        </tr>
+    </table>
+
+    <h2>Student Form</h2>
+    <form>
+        Name: <input type="text"><br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        Subjects:
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript<br><br>
+
+        <input type="submit" value="Submit" style="background-color: green; color: white; padding: 10px;">
+    </form>
+</article>
+
+<aside>
+    <h3>Additional Info</h3>
+    <p>This section is styled using box model with margin, padding, and border.</p>
+</aside>
+
+<footer>
+    <p>© 2025 Student Webpage</p>
+</footer>
+
+</body>
+</html>
